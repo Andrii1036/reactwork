@@ -1,0 +1,8 @@
+.users{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    box-sizing: border-box;
+    border-right: 3px solid black;
+    justify-content: space-between;
+}
