@@ -1,0 +1,12 @@
+.space{
+    display: flex;
+    border: 2px solid blue;
+    margin: 15px;
+    justify-content: space-between;
+    padding: 10px 150px;
+}
+.space_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
