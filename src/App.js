@@ -16,6 +16,7 @@ const App = () => {
     let [posts, setPosts] = useState(null)
 
     const getUserDetails = (user) => {
+        setPosts(null)
         setUserDetails(user)
     }
 
