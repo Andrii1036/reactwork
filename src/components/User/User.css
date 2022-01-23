@@ -1,0 +1,11 @@
+.userList_item{
+    display: flex;
+    justify-content: space-between;
+
+}
+.userList_item:hover{
+    text-decoration: underline;
+}
+button{
+    cursor: pointer;
+}

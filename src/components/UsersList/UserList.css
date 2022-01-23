@@ -1,0 +1,7 @@
+.usersList{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 40%;
+    row-gap: 15px;
+}
