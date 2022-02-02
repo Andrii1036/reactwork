@@ -1,0 +1,23 @@
+.card{
+    margin: 0 auto;
+}
+.card button{
+    width: 100%;
+    margin-top: 15px;
+}
+.carById {
+    border: 1px solid black;
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 10px;
+
+}
+.carById *{
+    margin: 0;
+}
+.active{
+    border: 5px solid green;
+}

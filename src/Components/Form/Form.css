@@ -1,0 +1,10 @@
+.saveForm{
+    display: flex;
+    flex-direction: column;
+    min-width: 230px;
+    row-gap: 10px;
+    align-items: flex-end;
+}
+.saveForm button{
+    width: 100%;
+}
