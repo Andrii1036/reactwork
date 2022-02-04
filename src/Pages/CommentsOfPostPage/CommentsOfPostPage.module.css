@@ -1,4 +1,4 @@
-.comments{
+.comments {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
@@ -7,6 +7,7 @@
     box-shadow: -6px -6px 4px black;
     padding: 0 20px;
 }
-.comments a{
+
+.comments a {
     text-decoration: none;
 }

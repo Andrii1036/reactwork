@@ -39,9 +39,7 @@ const PostDetailsPage = () => {
                     </div>
                 </div>
             }
-
         </>
-
     );
 };
 

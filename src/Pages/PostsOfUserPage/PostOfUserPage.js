@@ -8,22 +8,21 @@ import ItemOfPostsOfUserPage from "../../Components/ItemOfPostsOfUserPage/ItemOf
 
 const PostOfUserPage = () => {
 
-    let{id}=useParams()
-    let[posts,setPosts]=useState([])
+    let {id} = useParams()
+    let [posts, setPosts] = useState([])
 
-    useEffect(()=>{
+    useEffect(() => {
         postService.getByUser(id)
             .then(value => setPosts([...value]))
-    },[id])
+    }, [id])
     return (
         <>
-            {posts&&
+            {posts &&
                 <div className={style.posts}>
-                    {posts.map(post=><ItemOfPostsOfUserPage key={post.id} post={post}/>)}
+                    {posts.map(post => <ItemOfPostsOfUserPage key={post.id} post={post}/>)}
                 </div>
             }
         </>
-
     );
 };
 

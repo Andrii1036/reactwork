@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ItemOfCommentsOfPostPage = ({comment:{name,email,body}}) => {
+const ItemOfCommentsOfPostPage = ({comment: {name, email, body}}) => {
     return (
         <div>
             <p><a href={`mailto:${email}`}>{email}</a></p>

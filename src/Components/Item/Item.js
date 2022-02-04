@@ -3,6 +3,8 @@ import {NavLink} from "react-router-dom";
 
 import style from './Item.module.css'
 
+import UsersLinkButton from "../UsersLinkButton/UsersLinkButton";
+
 const Item = ({data}) => {
 
     let {title} = data
@@ -10,8 +12,29 @@ const Item = ({data}) => {
 
     return (
         <div className={style.item}>
-            {title&& <NavLink to={`/posts/${data.id}`} state={data}><p>{title}</p></NavLink>}
-            {name && <NavLink to={`/users/${data.id}`} state={data}><p>{name}</p></NavLink>}
+            {title &&
+                <div className={style.post}>
+                    <NavLink to={`/posts/${data.id}`} state={data}><p>{title}</p></NavLink>
+                </div>
+            }
+
+            {name &&
+                <div className={style.user}>
+                    <p>{name}</p>
+                    <div>
+                        {
+                            <NavLink to={`/users/${data.id}`} state={data}>
+                                <UsersLinkButton message={'User Details'}/>
+                            </NavLink>
+                        }
+                        {
+                            <NavLink to={`/users/${data.id}/albums`}>
+                                <UsersLinkButton message={'User Albums'}/>
+                            </NavLink>
+                        }
+                    </div>
+                </div>
+            }
         </div>
     );
 };

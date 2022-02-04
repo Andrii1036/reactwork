@@ -8,24 +8,22 @@ import ItemOfCommentsOfPostPage from "../../Components/ItemOfCommentsOfPostPage/
 
 const CommentsOfPostPage = () => {
 
-    let{id}=useParams()
-    let[comments,setComments]=useState([])
+    let {id} = useParams()
+    let [comments, setComments] = useState([])
 
-    useEffect(()=>{
+    useEffect(() => {
         commentService.getByPost(id)
             .then(value => setComments([...value]))
-    },[id])
+    }, [id])
 
     return (
         <>
-            {comments&&
+            {comments &&
                 <div className={style.comments}>
-                    {comments.map(comment=><ItemOfCommentsOfPostPage key={comment.id} comment={comment}/>)}
+                    {comments.map(comment => <ItemOfCommentsOfPostPage key={comment.id} comment={comment}/>)}
                 </div>
             }
         </>
-
-
     );
 };
 

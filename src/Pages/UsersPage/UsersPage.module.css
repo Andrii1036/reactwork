@@ -1,16 +1,20 @@
-.container{
+.container {
     display: flex;
     height: 100%;
 }
-.items{
+
+.items {
     display: flex;
     width: 40%;
     padding-right: 10px;
     flex-direction: column;
+    overflow-y: scroll;
 }
-.detail{
+
+.detail {
     display: flex;
     width: 60%;
     padding-left: 10px;
+    overflow: hidden;
     overflow-y: scroll;
 }

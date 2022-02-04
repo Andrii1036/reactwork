@@ -1,4 +1,4 @@
-.button{
+.button {
     margin: 10px;
     cursor: pointer;
     border-radius: 5px;
@@ -6,6 +6,7 @@
     font-weight: 900;
 
 }
-.button:hover{
+
+.button:hover {
     background-color: grey;
 }

@@ -18,7 +18,7 @@ const UsersPage = () => {
     return (
         <div className={style.container}>
             <div className={style.items}>
-                {users.map(user=><Item key={user.id} data={user}/>)}
+                {users.map(user => <Item key={user.id} data={user}/>)}
             </div>
             <div className={style.detail}>
                 <Outlet/>

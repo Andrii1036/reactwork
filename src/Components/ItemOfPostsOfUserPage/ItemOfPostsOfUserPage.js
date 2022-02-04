@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ItemOfPostsOfUserPage = ({post:{title,body}}) => {
+const ItemOfPostsOfUserPage = ({post: {title, body}}) => {
     return (
         <div>
             <h3>{title}</h3>

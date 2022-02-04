@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {useLocation, useParams,Outlet,Link} from "react-router-dom";
+import {useLocation, useParams, Outlet, Link} from "react-router-dom";
 
 import style from './UserDetaiPage.module.css'
 

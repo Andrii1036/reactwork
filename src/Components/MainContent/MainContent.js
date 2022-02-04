@@ -10,6 +10,8 @@ import PostDetailsPage from "../../Pages/PostDetailsPage/PostDetailsPage";
 import UserDetailsPage from "../../Pages/UserDetailsPage/UserDetailsPage";
 import CommentsOfPostPage from "../../Pages/CommentsOfPostPage/CommentsOfPostPage";
 import PostOfUserPage from "../../Pages/PostsOfUserPage/PostOfUserPage";
+import UserAlbumsPage from "../../Pages/UserAlbumsPage/UserAlbumsPage";
+import PhotosOfAlbumPage from "../../Pages/PhotosOfAlbumPage/PhotosOfAlbumPage";
 
 const MainContent = () => {
     return (
@@ -22,6 +24,9 @@ const MainContent = () => {
                     </Route>
                 </Route>
                 <Route path={'/users'} element={<UsersPage/>}>
+                    <Route path={'/users/:id/albums'} element={<UserAlbumsPage/>}>
+                        <Route path={'/users/:id/albums/:albumId/photos'} element={<PhotosOfAlbumPage/>}/>
+                    </Route>
                     <Route path={'/users:id'} element={<UserDetailsPage/>}>
                         <Route path={'/users/:id/posts'} element={<PostOfUserPage/>}/>
                     </Route>
