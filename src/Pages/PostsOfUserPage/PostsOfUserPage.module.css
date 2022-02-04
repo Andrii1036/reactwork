@@ -1,0 +1,9 @@
+.posts{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    box-shadow: -6px -6px 4px black;
+    padding: 0 15px;
+}

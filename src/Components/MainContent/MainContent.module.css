@@ -1,0 +1,5 @@
+.mainContent{
+    height: calc(100vh - 120px);
+    padding: 15px 20px;
+    overflow-y: hidden;
+}

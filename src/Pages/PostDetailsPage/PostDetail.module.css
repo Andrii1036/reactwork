@@ -1,0 +1,10 @@
+.detail{
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    box-shadow: -6px 6px 4px black;
+    padding: 0 20px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}

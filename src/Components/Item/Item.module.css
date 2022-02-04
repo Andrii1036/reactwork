@@ -1,0 +1,23 @@
+.item{
+
+}
+.item a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.item a[class='active']>p{
+    box-shadow: 6px 6px 4px black;
+}
+
+.item p{
+    margin: 0 0 10px 0;
+    padding: 10px 0;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    box-shadow: 2px 2px 2px grey;
+}
+.item p:hover{
+    box-shadow: 4px 4px 2px black;
+    transition: all 400ms;
+}

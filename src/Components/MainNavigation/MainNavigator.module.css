@@ -1,0 +1,22 @@
+.mainNavigator{
+    display: flex;
+    margin: 0 auto;
+    column-gap: 20px;
+    align-items: center;
+}
+.mainNavigator a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    transition: all 500ms;
+}
+.mainNavigator a[class='active']{
+    font-size: 28px;
+    color: gold;
+}
+.mainNavigator a:hover{
+    text-decoration: underline;
+    font-size: 28px;
+    transition: all 500ms;
+}
+

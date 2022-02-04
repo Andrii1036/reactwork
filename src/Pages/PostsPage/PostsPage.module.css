@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.items {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    padding-right: 10px;
+    overflow-y: scroll;
+}
+
+.details {
+    display: flex;
+    width: 60%;
+    padding-left: 10px;
+    overflow-y: scroll;
+}
