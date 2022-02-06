@@ -1,0 +1,13 @@
+.copyright{
+    height: 30px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    column-gap: 20px;
+}

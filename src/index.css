@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Dicovina';
+    src: local('Dicovina'),
+    url("./fonts/Dikovina/Dikovina.ttf");
+}

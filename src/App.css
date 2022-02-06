@@ -1,0 +1,13 @@
+.wrapper {
+    background-color: rgb(45, 48, 51);
+    background-image: url("./images/wrapperBG.jpg");
+    background-repeat: no-repeat;
+    background-position:top ;
+    background-size: contain;
+}
+.container{
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
