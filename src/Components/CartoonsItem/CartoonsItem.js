@@ -1,18 +1,16 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
+
+import style from './CartoonItem.module.css'
 
 const CartoonsItem = ({item}) => {
 
-    let[img,setImg]=useState('')
-
-    useEffect(()=>{
-        fetch(`../src/images/aside/${item}.jpg`)
-            .then(value => console.log(value))
-            // .then(value => console.log(value))
-    },[])
-
     return (
-        <div>
-            <img src={img} alt={item}/>
+        <div className={style.img}>
+            <a href="https://cn-fan.tv" target={'_blank'}>
+                <img
+                    src={`https://github.com/Andrii1036/reactwork/blob/additional_task_Rick_Morty/src/images/aside/${item}.jpg?raw=true`}
+                    alt=""/>
+            </a>
         </div>
     );
 };

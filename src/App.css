@@ -3,7 +3,7 @@
     background-image: url("./images/wrapperBG.jpg");
     background-repeat: no-repeat;
     background-position:top ;
-    background-size: contain;
+    background-size: 120%;
 }
 .container{
     max-width: 1000px;

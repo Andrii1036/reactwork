@@ -1,0 +1,12 @@
+.footer{
+    height: 70px;
+    border-top: thick double white;
+    border-bottom:thick double white ;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}

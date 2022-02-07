@@ -1,13 +1,12 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 
 import "./App.css"
 
-import {Content, Copyright, Header} from "./Components";
+import {Content, Copyright, Footer, Header} from "./Components";
 
 
 
 const App = () => {
-
 
 
     return (
@@ -16,6 +15,7 @@ const App = () => {
             <div className={"container"}>
                 <Header/>
                 <Content/>
+                <Footer/>
             </div>
 
         </div>

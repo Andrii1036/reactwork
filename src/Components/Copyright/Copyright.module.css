@@ -10,4 +10,5 @@
     top: 0;
     left: 0;
     column-gap: 20px;
+    z-index: 3;
 }
