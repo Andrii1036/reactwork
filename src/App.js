@@ -15,6 +15,9 @@ const calculator=(type, state)=>{
 
         case'res':
             return 0
+
+        default:
+            throw new Error('Some Error')
     }
 }
 
