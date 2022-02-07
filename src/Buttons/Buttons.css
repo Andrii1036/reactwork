@@ -1,0 +1,8 @@
+.buttons{
+    display: flex;
+    column-gap: 10px;
+    margin: 10px;
+}
+button{
+    cursor: pointer;
+}
