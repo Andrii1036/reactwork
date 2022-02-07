@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    border-bottom: thick double black;
+    padding-bottom: 10px;
+}
+.pets{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+.pets>div{
+    min-width: 150px;
+}
+.pets >div:first-child{
+    border-right:1px solid black ;
+    justify-content: center;
+}
+.pets >div:last-child{
+    border-left:1px solid black ;
+    justify-content: center;
+}
+.pets h2{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.pets_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+.pets_item button{
+    height: 20px;
+}
