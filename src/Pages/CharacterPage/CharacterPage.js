@@ -1,10 +1,10 @@
 import React, {useEffect, useState} from 'react';
 import {useSearchParams} from "react-router-dom";
 
-import style from './CharacterPage.module.css'
+import style from '../../Style/page.module.css'
 
 import {charactersService} from "../../services/characters.service";
-import {CharacterItem, PrevNextNavigation} from "../../Components";
+import {PageItem, PrevNextNavigation} from "../../Components";
 
 const CharacterPage = () => {
 
@@ -44,7 +44,7 @@ const CharacterPage = () => {
 
             <h2>Персонажі</h2>
             <div id={'contant'} className={style.contant}>
-                {character.map(item => <CharacterItem key={item.id} data={item}/>)}
+                {character.map(item => <PageItem key={item.id} data={item}/>)}
             </div>
 
             <PrevNextNavigation maxpageCount={maxPageCount}

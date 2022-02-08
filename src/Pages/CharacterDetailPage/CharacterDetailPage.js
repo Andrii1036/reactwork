@@ -15,9 +15,9 @@ const CharacterDetailPage = () => {
 
     let {image, name, gender, species, status} = {...details}
 
-    let navigate=useNavigate()
+    let navigate = useNavigate()
 
-    const marker =useRef()
+    const marker = useRef()
 
     useEffect(() => {
 
@@ -35,7 +35,7 @@ const CharacterDetailPage = () => {
             <div ref={marker}></div>
             {
                 details &&
-                <div  id={'detailsWrapper'} className={style.detailsWrapper}>
+                <div id={'detailsWrapper'} className={style.detailsWrapper}>
                     <h2>{name}</h2>
                     <div className={style.descriptionContainer}>
                         <div>
@@ -55,7 +55,7 @@ const CharacterDetailPage = () => {
                         hic labore nemo pariatur qui, quo unde voluptate! Asperiores culpa ipsa repudiandae vero!
                         Adipisci aspernatur at beatae cupiditate eaque eum eveniet fugit hic id ipsum iste, laboriosam
                         maiores mollitia nisi obcaecati odio quaerat repellendus sequi unde.</p>
-                    {state&&<button onClick={() => {
+                    {state && <button onClick={() => {
                         navigate(-1)
                     }}>На попередню сторінку</button>}
                 </div>

@@ -1,6 +1,6 @@
-const baseUrl='https://rickandmortyapi.com/api';
+const baseUrl = 'https://rickandmortyapi.com/api';
 
-export const endpoint={
+export const endpoint = {
     characters: "/character",
     locations: "/location",
     episodes: "/episode"

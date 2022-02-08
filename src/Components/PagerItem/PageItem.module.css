@@ -24,10 +24,36 @@
     color: black;
     padding: 15px;
 }
-.popUp p{
+
+.popUp p {
     font-weight: 400;
     font-size: 14px;
 }
-.popUp h2{
+
+.popUp h2 {
     color: black;
+}
+
+.episodesItem {
+    position: relative;
+}
+
+.episodesItem a {
+    text-decoration: none;
+}
+
+.episodesItem img {
+    width: 300px;
+    height: 400px;
+}
+
+.episodesItem h2 {
+    max-width: 300px;
+    margin: 10px 0 0 0;
+    color: black;
+}
+
+.episodesItem p {
+    font-size: 14px;
+    margin: 0;
 }

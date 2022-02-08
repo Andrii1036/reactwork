@@ -1,15 +1,17 @@
-.contantWrapper{
+.contantWrapper {
     padding: 15px;
 }
-.contant{
+
+.contant {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    gap:10px;
+    gap: 10px;
     justify-content: space-around;
     border-top: thick double rgb(0, 177, 193);
 }
-.contantWrapper h2{
+
+.contantWrapper h2 {
     font-size: 20px;
     color: rgb(0, 177, 193);
     padding-bottom: 5px;

@@ -1,8 +1,9 @@
-.prevNextNavigation{
+.prevNextNavigation {
     display: flex;
     column-gap: 30px;
-    margin-bottom:15px;
+    margin-bottom: 15px;
 }
+
 .prevNextNavigation button {
     font-family: 'Dicovina';
     font-size: 14px;
@@ -11,6 +12,7 @@
     background: none;
     cursor: pointer;
 }
-.prevNextNavigation button:hover{
+
+.prevNextNavigation button:hover {
     text-shadow: 2px 2px 6px #4eb236, -2px -2px 6px #4eb236, -2px 2px 6px #4eb236, 2px -2px 6px #4eb236;
 }

@@ -2,20 +2,20 @@ import React from 'react';
 
 import style from './PrevNextNavigation.module.css'
 
-const PrevNextNavigation = ({pageCount,setPageCount,setSearchParams,maxpageCount}) => {
+const PrevNextNavigation = ({pageCount, setPageCount, setSearchParams, maxpageCount}) => {
 
-    const nextPage=()=>{
-        pageCount=++pageCount
-        if(pageCount>maxpageCount){
-            pageCount=maxpageCount
+    const nextPage = () => {
+        pageCount = ++pageCount
+        if (pageCount > maxpageCount) {
+            pageCount = maxpageCount
         }
         setPageCount(pageCount)
         setSearchParams(`page=${pageCount}`)
     }
-    const prevPage=()=>{
-        pageCount=--pageCount
-        if(pageCount<1){
-            pageCount=1
+    const prevPage = () => {
+        pageCount = --pageCount
+        if (pageCount < 1) {
+            pageCount = 1
         }
         setPageCount(pageCount)
         setSearchParams(`page=${pageCount}`)
